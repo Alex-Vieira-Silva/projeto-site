@@ -1,0 +1,137 @@
+*{
+       margin: 0 0 0 0;
+       font-family: Tahoma;
+       font-size: 12px;
+    
+   }
+    #main{
+
+        width: 100%;
+        height: 800px;
+        background-color: #c0c0c0;
+    }
+
+
+    #topo{
+        width: 96%;
+        height: 60px;
+        background-color: #FFF059;
+        padding-top: 20px;
+        padding-left: 4% ;
+    }
+
+    .banner{
+        width: 100%;
+        height: 360px;
+        background-size: 100%;
+        
+    
+    }
+
+    .pagamentos{
+        width: 95,5%;
+        height: 70px;
+        background-color: #f8f6f6e3 ;
+        padding-left: 80px;
+        padding-top: 30px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: 400px;
+       
+        font-weight: bold;
+        line-height: 50px
+    
+    }
+
+
+    #rodape{
+        width: 100%;
+        height: 60px;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        line-height: 50px;
+
+    }
+
+    #info{
+        width: 88%;
+        height: 397px;
+        padding-left: 12%;
+        padding-top: 20px;
+        background-color: #ffffff;
+
+    }
+
+    #logo{
+        width: 20%;
+        height: 50px;
+        float: left;
+    }
+
+    #logo-imagem{
+        width: 50%;
+        height: 95%;
+        background-size: 100%;
+    }
+
+    #busca{
+        width: 35%;
+        height: 50px;
+        /*border: solid 1px #000000;*/
+        float: left;
+    }
+
+    #menu-topo{
+        width: 25%;
+        height: 50px;
+        /*border: solid 1px #000000;*/
+        margin-right: 10%;
+        float: right;
+        line-height: 50px;
+        
+    }
+
+    #menu-topo a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    #pesquisar{
+        background: url("imagens/busca.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: #ffffff;
+        font-size: 20px;
+        width: 60%;
+        height: 80%;
+        padding-left: 6%;
+        border: none;
+    }
+
+    .container-info{
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        width: 25%;
+        height: 250px;
+        margin: 30px 30px;
+        float: left;
+        margin-top: 50px;
+    }
+
+    .h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #4b4b4b;
+    margin: 0 0 0 ;
+    }
+
+    #formatando-p{
+    color: #999;
+    font-size: 15px;
+    margin: 4px 0 10px;
+    line-height: 1.2;
+    }

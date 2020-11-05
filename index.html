@@ -1,35 +1,92 @@
-<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
-    <title>Curso em Vídeo</title>
+    <link href="site.css" rel="stylesheet">
+    <title>Site em css</title>
+   
 </head>
 <body>
-    <main>
-        <head>
-            <h1>Curso Grátis</h1>
-            <img src="imagens/curso-em-video-cor.png" alt="Curso em Vídeo">
-        </head>
-        <article>
-            <h2>Curso de HTML5 e CSS3</h2>
-            <img class="lado" src="imagens/curso-html-css.png" alt="Curso HTML">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Natus excepturi iste ad placeat, fugit aperiam dicta totam consequatur aspernatur repellendus, 
-                ea commodi nostrum modi quisquam consequuntur ab quidem inventore rerum?</p>
-                <p><a href="cursohtml.html">Acesse o curso de HTML5</a></p>
-        </article>
-        <article>
-            <h2>Curso de JavaScript</h2>
-            <img class="lado" src="imagens/curso-javascript.png" alt="Curso de JS">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                A voluptatibus reprehenderit accusamus minus ducimus animi odit similique facere porro,
-                 dignissimos, veritatis esse adipisci fuga excepturi deserunt sapiente necessitatibus maiores. Sunt.</p>
-                 <p><a href="cursojs.html">Acesse o curso de JS</a></p>
-        </article>
-    </main>
+    <div id="main">
+        <div id="topo">
+
+             <div id="logo">
+                 <a href="#">
+                 <img id="logo-imagem" src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.4/mercadolibre/logo-pt__large_plus.png">
+                </a>
+             </div>
+
+             <div id="busca">
+                 <input type="text" id="pesquisar" placeholder="Digite sua busca">
+
+             </div>
+
+             <div id="menu-topo">
+                 <a href="#">Home</a> &nbsp;
+                 <a href="#">Meus Produtos</a> &nbsp;
+                 <a href="#">Minha Conta</a>
+
+             </div>
+
+        </div>
+
+        <div class="banner">
+
+          <img class="banner" src="https://http2.mlstatic.com/optimize/o:f_webp/resources/deals/exhibitors_resources/mlb-home-desktop-slider-picture-a06e5abc-ec21-4973-b89b-47db445de545.jpg">
+
+        </div>
+
+        <div class="pagamentos">
+            <h1 class="h1">Pague parcelado!
+
+        </h1>
+        
+        <img id="bandeira"  src="https://kontaazul.com.br/wp-content/uploads/2020/02/bandeira-dos-cartoes-de-credito.png">
+
+        </div>
+
+        
+
+        <div id="info">
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/payment.svg">
+                <br/><br/>
+                <h1 class="h1">Pague com cartão de crédito ou <br/> boleto</h1> 
+                <p id="formatando-p"> 
+                    Com o Mercado Pago você paga parcelado sem juros ou à vista no boleto. É sempre seguro!
+                </p>
+            </div>
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/shipping.svg">
+                <br/><br/>
+                <h1 class="h1">Frete grátis a partir de R$ 99</h1>
+                <p id="formatando-p">
+                    Só por estar cadastrado no Mercado Livre, você tem frete grátis em milhares de produtos. É um benefício do Mercado Pontos.
+                </p>
+
+            </div>
+
+            <div class="container-info">
+                <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/protected.svg">
+                <br/><br/>
+                <h1 class="h1">Segurança, do início ao fim</h1>
+                <p id="formatando-p">
+                        Você não gostou do que comprou? Devolva! No Mercado Livre não há nada que você não possa fazer, porque você está sempre protegido.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="rodape">
+            Copyright © 1999-2020 EMPRESA LTDA
+        </div>
+
+    </div>
+ 
     
 </body>
 </html>
-
